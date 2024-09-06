@@ -8,7 +8,9 @@ public class MotorBikeRunner {
         suzuki.start();
 
         honda.setSpeed(100);
+        System.out.println(honda.getSpeed());
         suzuki.setSpeed(50);
+        System.out.println(suzuki.getSpeed());
     }
 
 }
