@@ -5,11 +5,15 @@ public class MotorBike {
 
     void setSpeed(int speed) { //local variable
         this.speed = speed;
+    }
 
+    int getSpeed() {
+        return this.speed;
     }
 
     //behaviour
     void start() {
+        System.out.println(speed);
         System.out.println("Bike Started");
     }
 }
